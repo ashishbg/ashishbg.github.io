@@ -1,0 +1,25 @@
+.social_links {
+    display: inline-block;
+    padding: 0;
+    vertical-align: middle;
+    margin: unset;
+}
+
+.social_links li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.social_links svg {
+    width: 25px;
+    height: 25px;
+    fill: #858585;
+    transition: 0.2s ease-out;
+}
+
+.social_links svg:hover {
+    width: 25px;
+    height: 25px;
+    fill: rgb(119, 158, 45);
+    transition: 0.5s ease all;
+}
