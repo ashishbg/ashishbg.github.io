@@ -1,3 +1,22 @@
+body {
+    background-color: #ffffff;
+}
+
+.social-card {
+    margin: 1em;
+    width: 300px;
+    height: auto;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 .social_links {
     display: inline-block;
     padding: 0;
@@ -18,8 +37,7 @@
 }
 
 .social_links svg:hover {
-    width: 25px;
-    height: 25px;
-    fill: rgb(119, 158, 45);
-    transition: 0.5s ease all;
+    transform: scale(1.1);
+    fill: rgb(0, 0, 0);
+    transition: 0.25s ease all;
 }
